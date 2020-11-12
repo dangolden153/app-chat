@@ -1,0 +1,47 @@
+.Join_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1d;
+    height: 100vh;
+}
+
+.Container{
+    width: 20%;
+}
+
+.Heading{
+    color: white;
+    padding: 10px;
+    font-size: 2.4em;
+    border-bottom: 1px solid white;
+}
+
+.joinInput{
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.Btn{
+    text-transform: uppercase;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: #2979ff;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.mt{
+    margin-top: 20px;
+}
+
+@media (min-width: 350px) and (max-width:480px){
+    .Container{
+        width: 20%;
+    }
+}

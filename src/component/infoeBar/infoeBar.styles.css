@@ -1,0 +1,31 @@
+.info-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-radius: 4px 4px 0 0 ;
+    background-color: #2979ff;
+}
+
+.left-con{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 5%;
+}
+
+.right-con{
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+
+}
+
+.online-icon{
+    margin-right: 5%;
+    height: 15px;
+    width: 15px;
+}

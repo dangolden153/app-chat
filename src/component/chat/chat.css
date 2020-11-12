@@ -1,0 +1,32 @@
+.chat-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a1d;
+    height: 100vh;
+}
+
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    width: 35%;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+@media (min-width: 320px ) and (max-width: 480px){
+    .subContainer{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px ) and (max-width: 1200px){
+    .subContainer{
+        width: 60%;
+    }
+}
