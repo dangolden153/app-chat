@@ -2,6 +2,7 @@
   "name": "project-app2",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@apollo/client": "^3.2.5",
     "@testing-library/jest-dom": "^4.2.4",
@@ -13,7 +14,7 @@
     "react-dom": "^16.14.0",
     "react-emoji": "^0.5.0",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.2.0", 
     "react-scripts": "3.4.3",
     "react-scroll-to-bottom": "^4.0.0",
     "socket.io": "^2.3.0",
